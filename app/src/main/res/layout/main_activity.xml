@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:weightSum="23"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="10"
+        android:src="@drawable/zebra_tech_logo"
+        android:scaleType="centerInside"
+        />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/gears42_logo"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Things Connector V1.0 © 42Gears Mobility Systems\n\n"
+        />
+</LinearLayout>
